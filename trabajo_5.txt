@@ -1,0 +1,27 @@
+#include<stdio.h>
+   main(){
+	int a;
+	float c;
+	printf("ingrese la temperatura: ");
+	scanf("%i",&a);
+	c=(1,8*a)+32;
+	printf("la temperatura en f es: %.2f",c);
+
+	
+	
+}
+//leer la temperatura dada en escala Celsius e imprimir en Fahrenheit(f=9/5 C°+32)
+
+#include<stdio.h>
+main(){
+	int a;
+	float c;
+	printf("ingrese la cantidad de agua precipitada: ");
+	scanf("%i",&a);
+	c=(a*25,4);
+	printf("el agua en mm es:%.1f",c);
+	
+	
+	
+}	
+//leer la cantidad de agua precipitada en pulgadas e imprimir su equibalente en milimetros (25,5mm=1 pulgada)
